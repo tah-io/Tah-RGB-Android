@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/appbackground"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:text="Swipe down to scan device"
+    android:id="@+id/swipetxt"
+    android:gravity="center"
+    android:textColor="#FFFFFF"
+    android:layout_marginTop="05dp"
+    android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:background="#BDBDBD"
+        android:id="@+id/divider"
+        android:layout_marginTop="03dp"
+        android:layout_below="@+id/swipetxt"
+        android:layout_height="0.5dp"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/activity_actionbar"
+        android:layout_below="@+id/divider"
+        android:layout_height="wrap_content">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_main_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="05dp"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_marginTop="05dp"
+            android:layout_centerHorizontal="true"
+           />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

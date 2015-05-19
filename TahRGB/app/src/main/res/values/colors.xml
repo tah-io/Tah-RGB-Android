@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#990000</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="orange">#FF9900</color>
+    <color name="headercolor">#303f9f</color>
+    <color name="screenback">#fafafa</color>
+    <color name="buttoncolor">#2196f3</color>
+    <color name="stscolor">#2196f3</color>
+    <color name="drawbleselect">#bbdefb</color>
+
+    <color name="drawertoselect">#ffe0b2</color>
+    <color name="drawerbox">#216B46</color>
+
+
+    <color name="aqua">#0C66FE</color>
+    <color name="salmon">#FB4D53</color>
+    <color name="banana">#FEE409</color>
+    <color name="grass">#5BFF53</color>
+    <color name="grape">#6B006C</color>
+    <color name="tangerine">#FD6B07</color>
+    <color name="ice">#5BFFFF</color>
+    <color name="clover">#6A00FF</color>
+    <color name="strawberry">#D1000C</color>
+    <color name="honwydew">#FB006D</color>
+    <color name="snow">#ffffff</color>
+    <color name="plum">#0F7001</color>
+    <color name="rainbow">#942A3E</color>
+
+
+
+
+
+</resources>

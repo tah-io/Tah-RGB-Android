@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/appbackground"
+    android:clickable="true">
+
+
+    <RelativeLayout
+        android:id="@+id/mainrelative"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:gravity="center_vertical|center_horizontal">
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/wbforword"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/web_forward"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/wbreload"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/reload"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/wbackword"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/web_backward"
+        android:layout_alignParentBottom="true" />
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtube"
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/wbreload"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

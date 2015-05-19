@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/appbackground"
+    android:layout_marginBottom="10dp"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/relativeLayout2">
+
+        <EditText
+            android:id="@+id/edtdvicenam"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74dp"
+            android:layout_centerVertical="true"
+            android:focusable="true"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/edtdevicepass"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/edtdvicenam"
+            android:layout_below="@+id/edtdvicenam"
+            android:layout_marginTop="30dp"
+            android:inputType="numberPassword"
+            android:focusable="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edtdvicenam"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/edtdvicenam"
+            android:text="Name :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edtdevicepass"
+            android:layout_alignEnd="@+id/textView24"
+            android:text="Password :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/edtdevicepass"
+            android:layout_below="@+id/edtdevicepass"
+            android:layout_marginTop="30dp">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/stscolor"
+                android:checked="true"
+                android:text="open"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/stscolor"
+                android:text="secured"
+                android:textColor="#ffffff"
+                android:checked="false" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView25"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/radioSex"
+            android:gravity="end"
+            android:text="Security :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnupdatesetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+
+</RelativeLayout>

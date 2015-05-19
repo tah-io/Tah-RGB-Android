@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+   <!-- <style name="AppTheme" parent="Theme.AppCompat">-->
+    <!-- change color of action bar
+<item name="colorPrimary">@color/headercolor</item>
+<item name="colorPrimaryDark">@color/headercolor</item> -->
+    <item name="android:activatedBackgroundIndicator">@drawable/drawerselector</item>
+    </style>
+
+
+
+</resources>

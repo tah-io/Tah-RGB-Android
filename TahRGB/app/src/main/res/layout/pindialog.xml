@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter code"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dialogheader"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpin"
+        android:layout_marginTop="10dp"
+        android:hint="Please enter code here"
+        android:inputType="numberDecimal"
+    android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/dialogheader"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/btnok"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/edtpin"
+     />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/btncancel"
+        android:layout_marginBottom="10dp"
+        android:layout_alignTop="@+id/btnok"
+        android:layout_alignEnd="@+id/edtpin" />
+</RelativeLayout>
